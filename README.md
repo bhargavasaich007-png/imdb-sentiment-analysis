@@ -56,4 +56,9 @@ Team: UP2302123, UP2312756, UP2301714
 | `requirements.txt` | Python libraries to install |
 
 ## 🚀 How to Run
-1. Install dependencies
+1. Install dependencies — pip install -r requirements.txt
+2. Download spacy model — python -m spacy download en_core_web_sm
+3. Run preprocessing first — python preprocessing.py
+4. Run Bag of Words classification — python bow_classification.py
+5. Run topic detection — python topic_detection.py
+6. Run BERT classification — python bert_classification.py
